@@ -30,76 +30,76 @@ body {
 }
 </style>
 </head>
-<body class="min-h-screen flex items-center justify-center p-2 sm:p-4 gradient-bg text-white overflow-x-hidden">
+<body class="h-screen w-screen flex items-center justify-center p-1 gradient-bg text-white overflow-hidden">
 
-<!-- Основной контейнер -->
-<div class="max-w-md w-full bg-zinc-900/90 border border-emerald-400/80 rounded-2xl shadow-[0_0_30px_rgba(16,185,129,0.2)] overflow-hidden relative backdrop-blur-md mt-6">
+<!-- Основной контейнер (Сжаты отступы my-1 и максимальная высота h-[96vh]) -->
+<div class="max-w-md w-full h-[96vh] max-h-[640px] bg-zinc-900/90 border border-emerald-400/80 rounded-2xl shadow-[0_0_30px_rgba(16,185,129,0.2)] overflow-hidden relative backdrop-blur-md my-1 flex flex-col justify-between">
   
   <!-- Декоративные фоновые элементы -->
   <div class="absolute -top-10 -left-10 w-48 h-48 bg-emerald-400/10 rounded-full blur-2xl pointer-events-none"></div>
   <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-orange-500/10 rounded-full blur-2xl pointer-events-none"></div>
 
-  <!-- Хедер постера -->
-  <div class="relative bg-gradient-to-r from-emerald-500 via-teal-600 to-emerald-600 pt-14 pb-6 px-4 text-center shadow-lg">
+  <!-- Хедер постера (Уменьшены верхний pt-8 и нижний pb-2 отступы) -->
+  <div class="relative bg-gradient-to-r from-emerald-500 via-teal-600 to-emerald-600 pt-8 pb-2 px-3 text-center shadow-lg shrink-0">
     
-    <!-- Прыгающая плашка по центру (замененный блок по вашему коду) -->
-    <div class="absolute top-3 left-1/2 transform -translate-x-1/2 bg-orange-500 text-black text-xs font-black uppercase tracking-widest px-4 py-1 rounded-full shadow-md animate-bounce">
+    <!-- Прыгающая плашка (Уменьшен шрифт до text-[9px] и отступ top-1.5) -->
+    <div class="absolute top-1.5 left-1/2 transform -translate-x-1/2 bg-orange-500 text-black text-[9px] font-black uppercase tracking-widest px-2.5 py-0.5 rounded-full shadow-md animate-bounce">
         СТАРТ 17 ноября!
     </div>
 
-    <!-- Заголовок (замененный блок по вашему коду) -->
-    <h1 class="text-3xl sm:text-4xl font-black uppercase tracking-tighter text-black italic bg-white inline-block px-4 py-1 transform -rotate-1 shadow-lg mt-2">
+    <!-- Главный заголовок (Уменьшен размер шрифта до text-xl) -->
+    <h1 class="text-xl font-black uppercase tracking-tighter text-black italic bg-white inline-block px-2.5 py-0.5 transform -rotate-1 shadow-lg mt-1.5">
         КОРПОРАТИВНЫЙ ОТДЫХ
     </h1>
     
-    <!-- Изменение: Логотипы увеличены с w-8/h-8 до w-12/h-12, максимальная ширина плашки немного увеличена -->
-    <div class="flex justify-between items-center gap-3 my-4 bg-black/40 p-2.5 rounded-xl border border-white/10 backdrop-blur-sm max-w-sm mx-auto">
+    <!-- Логотипы (Уменьшены зазоры my-1.5) -->
+    <div class="flex justify-between items-center gap-3 my-1.5 bg-black/40 p-1.5 rounded-xl border border-white/10 backdrop-blur-sm max-w-sm mx-auto">
       <div class="flex justify-center flex-1">
-        <img src="https://sun9-85.vkuserphoto.ru/s/v1/ig2/19TpP_DOBjn9t4julK1ny3JInMmLGQnK1I1oG1Jz2nu-old5uDrb34xqJMy1pzVI0m-wycxTKP8-8kauwst9B7PX.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440,2000x2000&from=bu&u=DWD-wjLYA8da5gPVaJJcl_MT9MVhFlFWzH_rvBdpT5A&cs=2000x0" alt="Логотип Дартс Лиги" class="w-12 h-12 rounded-full object-cover drop-shadow-[0_2px_8px_rgba(249,115,22,0.4)]">
+        <img src="https://sun9-85.vkuserphoto.ru/s/v1/ig2/19TpP_DOBjn9t4julK1ny3JInMmLGQnK1I1oG1Jz2nu-old5uDrb34xqJMy1pzVI0m-wycxTKP8-8kauwst9B7PX.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440,2000x2000&from=bu&u=DWD-wjLYA8da5gPVaJJcl_MT9MVhFlFWzH_rvBdpT5A&cs=2000x0" alt="Логотип Дартс Лиги" class="w-10 h-10 rounded-full object-cover drop-shadow-[0_2px_8px_rgba(249,115,22,0.4)]">
       </div>
       <div class="flex justify-center flex-1 border-x border-white/10 px-1">
-        <img src="https://sun9-71.vkuserphoto.ru/s/v1/ig2/K3hH277wUFauEZWTkseScrz6wV7npVcybp0tZjXLlcxF19U1RXaWCyatKy9-ivcAdZioTlM7TGfnmH2hXLWL220b.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1194x1194&from=bu&cs=1194x0" alt="Логотип Федерации Тюмени" class="w-12 h-12 rounded-full object-cover drop-shadow-[0_2px_8px_rgba(16,185,129,0.4)]">
+        <img src="https://sun9-71.vkuserphoto.ru/s/v1/ig2/K3hH277wUFauEZWTkseScrz6wV7npVcybp0tZjXLlcxF19U1RXaWCyatKy9-ivcAdZioTlM7TGfnmH2hXLWL220b.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1194x1194&from=bu&cs=1194x0" alt="Логотип Федерации Тюмени" class="w-10 h-10 rounded-full object-cover drop-shadow-[0_2px_8px_rgba(16,185,129,0.4)]">
       </div>
       <div class="flex justify-center flex-1">
-        <img src="https://tyumen.harats.com/local/templates/harats/css/images/logo.svg" alt="Логотип Harat's Pub" class="h-12 w-auto object-contain drop-shadow-[0_2px_8px_rgba(234,179,8,0.4)]">
+        <img src="https://tyumen.harats.com/local/templates/harats/css/images/logo.svg" alt="Логотип Harat's Pub" class="h-10 w-auto object-contain drop-shadow-[0_2px_8px_rgba(234,179,8,0.4)]">
       </div>
     </div>
 
-    <!-- Изменение: Желтая надпись стала мельче (text-[11px]) и выровнена строго в одну строку без переносов -->
-    <p class="text-[11px] sm:text-xs font-black text-yellow-300 tracking-wide uppercase italic neon-glow-orange whitespace-nowrap">
+    <!-- Желтая надпись в одну строку -->
+    <p class="text-[10px] sm:text-[11px] font-black text-yellow-300 tracking-wide uppercase italic neon-glow-orange whitespace-nowrap">
       Интеллектуальный &bull; Азартный &bull; Сплочающий
     </p>
   </div>
 
-  <!-- Главный блок контента -->
-  <div class="p-4 sm:p-5 space-y-3 relative">
+  <!-- Главный блок контента (Использует flex-1 и равномерное распределение space-y-2) -->
+  <div class="p-2.5 sm:p-3 space-y-2 relative flex-1 flex flex-col justify-between overflow-hidden">
     
     <!-- Информационный блок: КОГДА и ГДЕ -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    <div class="flex flex-row gap-2 shrink-0">
       <!-- КОГДА -->
-      <div class="bg-zinc-800/50 p-3 rounded-xl border-l-4 border-orange-500 shadow-sm skew-card">
+      <div class="flex-1 bg-zinc-800/50 p-2 rounded-xl border-l-4 border-orange-500 shadow-sm skew-card">
         <div class="unskew-content">
-          <span class="text-[10px] font-bold uppercase text-orange-400 tracking-wider block mb-1">КОГДА</span>
-          <div class="flex gap-3 items-center">
-            <div class="text-sm font-black text-emerald-400 uppercase leading-tight border-r border-zinc-700 pr-2 shrink-0 tracking-tight">
-              <p>17.11</p>
-              <p>24.11</p>
-              <p>01.12</p>
+          <span class="text-[9px] font-bold uppercase text-orange-400 tracking-wider block mb-0.5">КОГДА</span>
+          <div class="flex gap-1.5 items-center">
+            <div class="text-sm font-black uppercase leading-tight border-r border-zinc-700 pr-1.5 shrink-0 tracking-tight">
+              <p class="text-teal-400">17.11</p>
+              <p class="text-orange-500">24.11</p>
+              <p class="text-emerald-400">01.12</p>
             </div>
             <div class="text-[11px] text-zinc-200 leading-tight">
-              <p><span class="font-black text-orange-400">18:00</span> Разминка</p>
-              <p class="mt-1"><span class="font-black text-emerald-400">19:00</span> Старт</p>
+              <p><span class="font-black text-orange-400">18:00</span> Сбор</p>
+              <p class="mt-0.5"><span class="font-black text-emerald-400">19:00</span> Матчи</p>
             </div>
           </div>
         </div>
       </div>
 
       <!-- ГДЕ -->
-      <div class="bg-zinc-800/50 p-3 rounded-xl border-l-4 border-emerald-400 shadow-sm skew-card flex flex-col justify-between">
+      <div class="flex-1 bg-zinc-800/50 p-2 rounded-xl border-l-4 border-emerald-400 shadow-sm skew-card flex flex-col justify-between">
         <div class="unskew-content">
-          <span class="text-[10px] font-bold uppercase text-emerald-400 tracking-wider block mb-1">ГДЕ</span>
+          <span class="text-[9px] font-bold uppercase text-emerald-400 tracking-wider block mb-0.5">ГДЕ</span>
           <span class="text-sm font-black text-orange-400 block uppercase tracking-tight">Harat's Pub</span>
-          <p class="text-[11px] text-zinc-300 leading-tight mt-0.5">
+          <p class="text-[10px] text-zinc-300 leading-tight mt-0.5">
             ул. 50 лет Октября, 10
           </p>
         </div>
@@ -107,83 +107,78 @@ body {
     </div>
 
     <!-- ФОРМАТ ИГРЫ -->
-    <div class="bg-zinc-800/40 p-3 rounded-xl border border-zinc-700/50 grid grid-cols-3 gap-2 text-xs">
-      <!-- Левый блок -->
-      <div class="flex flex-col items-center text-center border-r border-zinc-700/50 px-1">
-        <span class="font-bold text-white mb-1">Набор Очков</span>
-        <span class="text-[10px] uppercase font-black text-orange-400">Старт</span>
+    <div class="bg-zinc-800/40 p-1.5 rounded-xl border border-zinc-700/50 grid grid-cols-3 gap-1 text-xs shrink-0">
+      <div class="flex flex-col items-center text-center border-r border-zinc-700/50 px-0.5">
+        <span class="font-bold text-white mb-0.5 leading-tight">Набор Очков</span>
+        <span class="text-[9px] uppercase font-black text-orange-400">Старт</span>
       </div>
-      <!-- Средний блок -->
-      <div class="flex flex-col items-center text-center border-r border-zinc-700/50 px-1">
-        <span class="font-bold text-white mb-1">301 SO</span>
-        <span class="text-[10px] uppercase font-black text-emerald-400">Плей-офф</span>
+      <div class="flex flex-col items-center text-center border-r border-zinc-700/50 px-0.5">
+        <span class="font-bold text-white mb-0.5 leading-tight">301 SO</span>
+        <span class="text-[9px] uppercase font-black text-emerald-400">Плей-офф</span>
       </div>
-      <!-- Правый блок -->
-      <div class="flex flex-col items-center text-center px-1">
-        <span class="font-bold text-white mb-1">501 DO</span>
-        <span class="text-[10px] uppercase font-black text-yellow-400">Полуфинал/Финал</span>
+      <div class="flex flex-col items-center text-center px-0.5">
+        <span class="font-bold text-white mb-0.5 leading-tight">501 DO</span>
+        <span class="text-[9px] uppercase font-black text-yellow-400">Полуфинал/Финал</span>
       </div>
     </div>
 
     <!-- Блок "ПИЛОТНЫЙ ЗАПУСК: МЫ ЖДЕМ ВСЕХ" -->
-    <div class="bg-zinc-800/30 p-3 rounded-xl border border-zinc-800 shadow-sm">
-      <!-- Изменение: Новая двухцветная строка по вашему запросу -->
-      <h3 class="text-xs font-black text-center uppercase tracking-wide mb-2">
+    <div class="bg-zinc-800/30 p-1.5 rounded-xl border border-zinc-800 shadow-sm shrink-0">
+      <h3 class="text-xs font-black text-center uppercase tracking-wide mb-1">
         🔥 <span class="text-white">ПИЛОТНЫЙ ЗАПУСК:</span> <span class="text-emerald-400">МЫ ЖДЕМ ВСЕХ</span>
       </h3>
-      <div class="grid grid-cols-1 gap-1 text-[11px]">
-        <div class="flex items-center gap-2 bg-zinc-900/60 p-1.5 rounded-lg border border-zinc-800/50">
-          <div class="bg-orange-500 text-black font-black w-5 h-5 text-[10px] rounded flex items-center justify-center shrink-0">01</div>
-          <p class="text-zinc-200"><span class="font-bold text-white">Одиночные игроки</span> — найдем соперников</p>
+      <div class="grid grid-cols-1 gap-0.5 text-[11px]">
+        <div class="flex items-center gap-2 bg-zinc-900/60 p-0.5 rounded-lg border border-zinc-800/50">
+          <div class="bg-orange-500 text-black font-black w-3.5 h-3.5 text-[8px] rounded flex items-center justify-center shrink-0">01</div>
+          <p class="text-zinc-200"><span class="font-bold text-white">Одиночные игроки</span> — найдем вам команду</p>
         </div>
-        <div class="flex items-center gap-2 bg-zinc-900/60 p-1.5 rounded-lg border border-zinc-800/50">
-          <div class="bg-emerald-500 text-black font-black w-5 h-5 text-[10px] rounded flex items-center justify-center shrink-0">02</div>
+        <div class="flex items-center gap-2 bg-zinc-900/60 p-0.5 rounded-lg border border-zinc-800/50">
+          <div class="bg-emerald-500 text-black font-black w-3.5 h-3.5 text-[8px] rounded flex items-center justify-center shrink-0">02</div>
           <p class="text-zinc-200"><span class="font-bold text-white">Пары друзей/коллег</span> — играйте вместе</p>
         </div>
-        <div class="flex items-center gap-2 bg-zinc-900/60 p-1.5 rounded-lg border border-zinc-800/50">
-          <div class="bg-teal-500 text-black font-black w-5 h-5 text-[10px] rounded flex items-center justify-center shrink-0">03</div>
+        <div class="flex items-center gap-2 bg-zinc-900/60 p-0.5 rounded-lg border border-zinc-800/50">
+          <div class="bg-teal-500 text-black font-black w-3.5 h-3.5 text-[8px] rounded flex items-center justify-center shrink-0">03</div>
           <p class="text-zinc-200"><span class="font-bold text-white">Компании</span> — присмотритесь к формату</p>
         </div>
       </div>
     </div>
 
     <!-- Цена вопроса -->
-    <div class="bg-gradient-to-r from-orange-500/10 via-emerald-500/5 to-teal-500/10 p-3 rounded-xl border border-dashed border-emerald-400/60 text-center relative">
-      <span class="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-zinc-900 px-3 text-[9px] font-bold uppercase text-orange-400 tracking-wider border border-zinc-800 rounded-full">
+    <div class="bg-gradient-to-r from-orange-500/10 via-emerald-500/5 to-teal-500/10 p-1.5 rounded-xl border border-dashed border-emerald-400/60 text-center relative space-y-0.5 shrink-0">
+      <span class="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-zinc-900 px-2 text-[7px] font-bold uppercase text-orange-400 tracking-wider border border-zinc-800 rounded-full">
         Цена вопроса
       </span>
-      <div class="text-2xl font-black text-emerald-400 neon-glow-green mt-1">
-        2 500 ₽ <span class="text-xs font-normal text-zinc-400">/ с человека</span>
+      <div class="text-lg font-black text-emerald-400 neon-glow-green mt-0.5">
+        2 500 ₽ <span class="text-[9px] font-normal text-zinc-400">/ с человека</span>
       </div>
-      <p class="text-[10px] text-zinc-300 mt-1 max-w-xs mx-auto leading-tight">
+      <p class="text-[10px] text-zinc-200 max-w-xs mx-auto leading-tight">
         В стоимость входят <span class="text-white font-bold underline decoration-orange-400">3 игровых вечера*</span>, судейство и фотосессии!
       </p>
-	<!-- Возвращенный текст от звездочки -->
-      <div class="border-t border-zinc-800 pt-1.5 mt-1">
-        <p class="text-[9px] text-zinc-500 leading-tight italic">
+      <div class="border-t border-zinc-800 pt-0.5 mt-0.5">
+        <p class="text-[7.5px] text-zinc-500 leading-tight italic">
           * Обратите внимание: формат турнира может быть изменен в зависимости от количества участников.
         </p>
       </div>
     </div>
 
     <!-- Призыв к действию и контакты -->
-    <div class="text-center pt-1 space-y-3">
-      <div class="text-xs font-medium text-zinc-300">
+    <div class="text-center pt-0.5 space-y-1.5 shrink-0">
+      <div class="text-[11px] font-medium text-zinc-300">
         Запись по телефону: 
-        <a href="tel:+79058265422" class="text-white text-base font-black tracking-wide hover:text-orange-400 transition-colors inline-block ml-1">
+        <a href="tel:+79058265422" class="text-white text-xs font-black tracking-wide hover:text-orange-400 transition-colors inline-block ml-1">
           +7 (905) 826-54-22
         </a>
       </div>
       
       <!-- Яркая Кнопка действия -->
-      <a href="https://vk.com/im?sel=-239652513" target="_blank" class="block w-full text-center bg-gradient-to-r from-emerald-400 via-teal-500 to-emerald-500 text-black font-black text-base py-3 px-4 rounded-xl uppercase tracking-wider shadow-md hover:shadow-[0_0_20px_rgba(52,211,153,0.4)] transition-all no-underline">
+      <a href="https://vk.com/im?sel=-239652513" target="_blank" class="block w-full text-center bg-gradient-to-r from-emerald-400 via-teal-500 to-emerald-500 text-black font-black text-xs py-2 px-3 rounded-xl uppercase tracking-wider shadow-md hover:shadow-[0_0_20px_rgba(52,211,153,0.4)] transition-all no-underline">
         ✉️ Написать и зарегистрироваться
       </a>
     </div>
   </div>
 
   <!-- Футер -->
-  <div class="bg-zinc-950/90 py-2 text-center text-[9px] text-zinc-500 uppercase tracking-widest border-t border-zinc-800/60">
+  <div class="bg-zinc-950/90 py-1 text-center text-[7.5px] text-zinc-500 uppercase tracking-widest border-t border-zinc-800/60 shrink-0">
     Дартс Лига Организаций. <span class="text-orange-400 font-bold">Сезон Осень-2026</span> @ Harat's Irish Pub
   </div>
 </div>
